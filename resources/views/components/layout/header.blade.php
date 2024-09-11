@@ -9,5 +9,5 @@
   </x-layout.inner>
 </header>
 <figure>
-  <img src="/media/img/liebenauweg-luzern.jpg" alt="Liebenauweg Luzern" class="block w-full h-full object-cover aspect-[16/8]" />
+  <img src="/media/img/baarerstrasse-zug.jpg" alt="Liebenauweg Luzern" class="block w-full h-full object-cover aspect-[16/8]" />
 </figure>

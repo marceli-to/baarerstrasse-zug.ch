@@ -3,7 +3,7 @@ const initMap = () => {
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/marcelitoooo/ck16ms7m51nlo1cmwnqrbjuyq?optimize=true',
-    center: [8.316232315341937,47.05958156512268],
+    center: [8.516716226986368,47.17557676153024],  
     zoom: 14
   });
   map.addControl(new mapboxgl.NavigationControl());
@@ -15,11 +15,11 @@ const initMap = () => {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [8.316232315341937,47.05958156512268]
+        coordinates: [8.516716226986368,47.17557676153024]
       },
       properties: {
-        title: 'Wohnen in Zürich-Wipkingen',
-        description: 'Zürich'
+        title: 'Baarerstrasse Zug – Ihr zentraler Knotenpunkt',
+        description: 'Zug'
       }
     }]
   };

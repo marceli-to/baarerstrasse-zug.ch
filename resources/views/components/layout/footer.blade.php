@@ -7,7 +7,7 @@
   @if (!Route::is('page.privacy') && !Route::is('page.imprint'))
     <div class="py-15 md:py-30 px-15 md:px-25">
       <x-layout.inner>
-        <h3 class="text-teal !mb-0">Kontakt</h3>
+        <h3 class="text-indigo !mb-0">Kontakt</h3>
         <div class="flex justify-between">
           <address class="not-italic">
             Apleona Schweiz AG<br>
@@ -24,7 +24,7 @@
       </x-layout.inner>
     </div>
   @endif
-  <div class="bg-teal text-white text-sm md:text-base py-10 px-15 md:px-25">
+  <div class="bg-indigo text-white text-sm md:text-base py-10 px-15 md:px-25">
     <x-layout.inner>
       <nav>
         <ul class="flex gap-x-15 lg:gap-x-20">

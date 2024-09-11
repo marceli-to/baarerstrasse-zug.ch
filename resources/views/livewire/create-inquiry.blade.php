@@ -1,4 +1,4 @@
-<form wire:submit="save" class="mt-16 lg:mt-24">
+<form wire:submit="save" class="mt-16 lg:mt-24 text-graphite">
   @if (session()->has('status'))
     <div x-data="{ open: true }" x-show="open">
       <div class="bg-green-600 rounded-sm text-white font-poppins-medium font-medium py-15 pl-15 pr-30 fixed top-10 left-10 inline-block w-auto z-[101]">
@@ -13,7 +13,7 @@
   @endif
 
   <div class="mt-25 mb-15 lg:mb-20">
-    <h2 class="text-teal">ICH INTERESSIERE MICH FÜR (BITTE AUSWÄHLEN):</h2>
+    <h2 class="text-indigo">ICH INTERESSIERE MICH FÜR (BITTE AUSWÄHLEN):</h2>
   </div>
   <x-layout.grid class="sm:gap-y-15 lg:gap-x-25 lg:gap-y-20">
     <x-honeypot />
@@ -27,18 +27,28 @@
       <div class="flex flex-col md:flex-row md:gap-x-40">
         <div class="mb-5 md:mb-0">
           <div>
-            <x-form.checkbox name="interest" value="2.5-Zimmerwohnung" isWire="true" class="-mt-4" id="interest-2.5zi" />
-            <x-form.checkbox-label for="interest-2.5zi">2.5-Zimmerwohnung</x-form.checkbox-label>
+            <x-form.checkbox name="interest" value="1-Zimmerwohnungen" isWire="true" class="-mt-4" id="interest-1zi" />
+            <x-form.checkbox-label for="interest-1zi">1-Zimmerwohnungen</x-form.checkbox-label>
           </div>
           <div>
-            <x-form.checkbox name="interest" value="3.5-Zimmerwohnung" isWire="true" class="-mt-4" id="interest-3.5zi" />
-            <x-form.checkbox-label for="interest-3.5zi">3.5-Zimmerwohnung</x-form.checkbox-label>
+            <x-form.checkbox name="interest" value="2.5-Zimmerwohnungen" isWire="true" class="-mt-4" id="interest-2.5zi" />
+            <x-form.checkbox-label for="interest-2.5zi">2.5-Zimmerwohnungen</x-form.checkbox-label>
           </div>
         </div>
-        <div>
+        <div class="mb-5 md:mb-0">
           <div>
-            <x-form.checkbox name="interest" value="4.5-Zimmerwohnung" isWire="true" class="-mt-4" id="interest-4.5zi" />
-            <x-form.checkbox-label for="interest-4.5zi">4.5-Zimmerwohnung</x-form.checkbox-label>
+            <x-form.checkbox name="interest" value="3.5-Zimmerwohnungen" isWire="true" class="-mt-4" id="interest-3.5zi" />
+            <x-form.checkbox-label for="interest-3.5zi">3.5-Zimmerwohnungen</x-form.checkbox-label>
+          </div>
+        </div>
+        <div class="mb-5 md:mb-0">
+          <div>
+            <x-form.checkbox name="interest" value="Bürofläche" isWire="true" class="-mt-4" id="interest-office" />
+            <x-form.checkbox-label for="interest-office">Bürofläche</x-form.checkbox-label>
+          </div>
+          <div>
+            <x-form.checkbox name="interest" value="Gewerbefläche" isWire="true" class="-mt-4" id="interest-business" />
+            <x-form.checkbox-label for="interest-business">Gewerbefläche</x-form.checkbox-label>
           </div>
         </div>
       </div>

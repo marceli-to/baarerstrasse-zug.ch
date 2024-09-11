@@ -49,7 +49,7 @@ p:last-of-type {
 }
 
 strong {
-  @apply font-poppins-medium font-medium font-normal;
+  @apply font-poppins-medium;
 }
 
 main ul {

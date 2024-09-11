@@ -17,12 +17,11 @@ export default {
       },
 
       colors: {
-
-        'terracotta': '#d98169',
-        'teal': '#86a5a8',
-        'ivory': '#f0e4d8',
-        'charcoal': '#474747',
-        'stone': '#919191',
+        'plum': '#825078',
+        'indigo': '#465fa0',
+        'nimbus': '#edeef0',
+        'pewter': '#919191',
+        'graphite': '#474747',
       },
 
       fontFamily: {
