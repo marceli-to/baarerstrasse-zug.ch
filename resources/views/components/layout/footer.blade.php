@@ -10,9 +10,7 @@
         <h3 class="text-indigo !mb-0">Kontakt</h3>
         <div class="flex justify-between">
           <address class="not-italic">
-            Apleona Schweiz AG<br>
-            Oberfeld 15a<br>
-            6037 Root
+            smeyers AG<br>Seetalstrasse 185<br>6032 Emmen<br><a href="https://www.smeyers.ch" target="_blank">www.smeyers.ch</a>
           </address>
           <div>
             <svg width="644" height="179" viewBox="0 0 644 179" fill="none" xmlns="http://www.w3.org/2000/svg" class="block max-w-[160px] md:max-w-[240px] h-auto w-full">
